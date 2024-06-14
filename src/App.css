@@ -1,0 +1,82 @@
+.App {
+  text-align: center;
+  background: linear-gradient(to right, #74ebd5, #acb6e5);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Arial', sans-serif;
+}
+
+.app-name {
+  font-size: 2rem;
+  color: #ffffff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px;
+}
+
+.search-bar {
+  margin-bottom: 20px;
+}
+
+.city-search {
+  padding: 10px;
+  border-radius: 20px;
+  border: none;
+  width: 300px;
+  outline: none;
+  font-size: 1rem;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.error-message {
+  color: #ff4e42;
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.city-name h2 {
+  color: #ffffff;
+  font-size: 2.5rem;
+  margin: 10px 0;
+}
+
+.city-name span {
+  color: #f0f0f0;
+  font-size: 1.5rem;
+}
+
+.date {
+  color: #ffffff;
+  margin-bottom: 20px;
+  font-size: 1.2rem;
+}
+
+.icon-temp {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  color: #ffffff;
+  font-size: 3rem;
+}
+
+.icon-temp img {
+  width: 100px;
+  height: 100px;
+}
+
+.deg {
+  font-size: 2rem;
+  vertical-align: super;
+}
+
+.des-wind p {
+  color: #ffffff;
+  margin: 5px 0;
+  font-size: 1.2rem;
+}
